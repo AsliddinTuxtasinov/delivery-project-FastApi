@@ -8,3 +8,6 @@ run:
 	uvicorn $(APP_MODULE) --reload --host 0.0.0.0 --port 8000
 
 # Additional commands can be added here
+
+migrate_db:
+	python db/init_db.py
