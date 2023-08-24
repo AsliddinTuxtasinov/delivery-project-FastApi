@@ -13,7 +13,7 @@ engine = create_engine(
 Base = declarative_base()
 
 # Create a session-maker to create database sessions.
-Session = sessionmaker()
+session = sessionmaker()
 
 # Here, you've set up the basic components for interacting with the PostgresSQL database:
 # - `engine` to connect to the database
